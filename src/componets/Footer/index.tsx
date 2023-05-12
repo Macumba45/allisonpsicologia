@@ -32,7 +32,7 @@ const Footer: FC = () => {
         Agenda tu Consultoría GRATUITA
       </Button>
       <Copyrights>
-        <WebLink href="https://virginiahidalgo.es">allisonpsicologia.com</WebLink>
+        <WebLink target="blank" href="https://allisonpsicologia.com/">allisonpsicologia.com</WebLink>
         .&nbsp;Copyright 2023.&nbsp;All Rights Reserved.
       </Copyrights>
     </MainContainer>
