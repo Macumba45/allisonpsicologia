@@ -108,7 +108,7 @@ const Video: FC = () => {
       </SpanBoldContainer>
 
       <VideoContainer>
-        <VideoUrl poster="https://i.postimg.cc/nVdRc8Rc/allison.jpg" style={{ height: '600px' }} src="/videos/myvideo.mp4" controls />
+        <VideoUrl poster="https://i.postimg.cc/nVdRc8Rc/allison.jpg" style={{ height: '600px' }} src="https://www.dropbox.com/s/g2r6ol0udkf64yc/myvideo3.mp4?dl=1" controls />
       </VideoContainer>
     </MainContainer>
   );
