@@ -19,7 +19,7 @@ const Video: FC = () => {
       opacity: 1,
       transition: {
         delay: 0.05, // retrasa el inicio de la animación medio segundo
-        staggerChildren: 0.04, // retrasa el inicio de cada letra 0.1 segundos
+        staggerChildren: 0.09, // retrasa el inicio de cada letra 0.1 segundos
       },
     },
   };
