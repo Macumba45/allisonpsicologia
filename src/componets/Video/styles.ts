@@ -63,7 +63,7 @@ export const Span = styled(motion.span)`
   margin-top: 2rem;
   @media screen and (max-width: 600px) {
     font-size: 1.8rem;
-    line-height: 2rem;
+    line-height: 2.5rem;
   }
 `;
 
@@ -74,6 +74,11 @@ font-family: ${({ theme }) => theme.fonts.poppins};
 font-size: 4rem;
 color: ${({ theme }) => theme.colors.primaryLight};
 text-align: center;
+
+@media screen and (max-width: 600px) {
+    font-size: 2rem;
+    line-height: 2rem;
+  }
 
 
 

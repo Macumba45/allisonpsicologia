@@ -68,7 +68,7 @@ const Video: FC = () => {
           <Span variants={letterVariants}> </Span>
           <Span variants={letterVariants}><SpanBold>contigo</SpanBold></Span>
           <Span variants={letterVariants}> </Span>
-          <Span variants={letterVariants}><SpanBold>mismo/a</SpanBold></Span>
+          <Span variants={letterVariants}><SpanBold>mism@</SpanBold></Span>
           <Span variants={letterVariants}> </Span>
           <Span variants={letterVariants}>y</Span>
           <Span variants={letterVariants}> </Span>
@@ -79,6 +79,8 @@ const Video: FC = () => {
           <Span variants={letterVariants}>de</Span>
           <Span variants={letterVariants}> </Span>
           <Span variants={letterVariants}>la</Span>
+          <Span variants={letterVariants}> </Span>
+          <Span variants={letterVariants}>vida</Span>
           <Span variants={letterVariants}> </Span>
           <Span variants={letterVariants}>que</Span>
           <Span variants={letterVariants}> </Span>
@@ -106,7 +108,7 @@ const Video: FC = () => {
       </SpanBoldContainer>
 
       <VideoContainer>
-        <VideoUrl src="/videos/myvideo.mp4" controls />
+        <VideoUrl poster="https://i.postimg.cc/nVdRc8Rc/allison.jpg" style={{ height: '600px' }} src="/videos/myvideo.mp4" controls />
       </VideoContainer>
     </MainContainer>
   );
