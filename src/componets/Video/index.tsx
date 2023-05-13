@@ -10,7 +10,7 @@ import {
   SpanBoldContainer,
 } from "./styles";
 
-const video = require('./../../assets/videos/myvideo1.mp4')
+const video = require('../../videos/myvideo1.mp4')
 
 const Video: FC = () => {
   const titleVariants = {
@@ -110,7 +110,7 @@ const Video: FC = () => {
       </SpanBoldContainer>
 
       <VideoContainer>
-        <VideoUrl src={'./../../assets/videos/myvideo1.mp4'} preload="none" poster="https://i.postimg.cc/nVdRc8Rc/allison.jpg" style={{ height: '600px' }} controls playsInline />
+        <VideoUrl src={video} preload='auto' poster="https://i.postimg.cc/nVdRc8Rc/allison.jpg" style={{ height: '600px' }} controls playsInline />
       </VideoContainer>
     </MainContainer>
   );
