@@ -88,7 +88,7 @@ const Video: FC = () => {
           <Span variants={letterVariants}> </Span>
           <Span variants={letterVariants}>realmente</Span>
           <Span variants={letterVariants}> </Span>
-          <Span variants={letterVariants}>mereces</Span>
+          <Span variants={letterVariants}><SpanBold>mereces</SpanBold></Span>
 
         </motion.div>
       </TitleContainer>
