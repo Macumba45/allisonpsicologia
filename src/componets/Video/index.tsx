@@ -110,7 +110,7 @@ const Video: FC = () => {
       </SpanBoldContainer>
 
       <VideoContainer>
-        <VideoUrl style={{ height: '600px' }} src={video} controls playsInline preload="auto" />
+        <VideoUrl poster="https://i.postimg.cc/nVdRc8Rc/allison.jpg" style={{ height: '600px' }} src={video} controls playsInline />
       </VideoContainer>
     </MainContainer>
   );
