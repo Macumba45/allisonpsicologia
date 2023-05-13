@@ -10,7 +10,7 @@ import {
   SpanBoldContainer,
 } from "./styles";
 
-const video = require('./../../assets/videos/myvideo.mp4')
+const video = require('./../../assets/videos/myvideo1.mp4')
 
 const Video: FC = () => {
   const titleVariants = {
