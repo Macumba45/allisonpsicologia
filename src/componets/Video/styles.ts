@@ -47,9 +47,12 @@ export const VideoContainer = styled.div`
 
 export const VideoUrl = styled.video`
   width: 80%;
-  height: 80%;
   object-fit: cover;
   border: 10px solid #F1CED6;
+
+  @media screen and (max-width: 600px) {
+    width: 350px;
+  }
 `;
 
 export const Span = styled(motion.span)`

@@ -15,8 +15,9 @@ const Footer: FC = () => {
     <MainContainer>
       {/* <TtitleFooter>Contáctame para más información:</TtitleFooter> */}
       <Button
-        href="https://www.canva.com/design/DAEM6gCQLEQ/RHKxSS30CRIEprkjVBbT6Q/edit?analyticsCorrelationId=f704f969-c5f2-403c-b775-e933f20e2f6a"
+        href="https://calendly.com/allisonpsicologia/llamada"
         // onClick={contactMe}
+        target="blank"
         sx={{
           fontFamily: "poppins",
           width: "350px",
