@@ -53,6 +53,8 @@ export const VideoUrl = styled.iframe`
 
   @media screen and (max-width: 600px) {
     width: 350px;
+    height: 400px;
+
   }
 `;
 
