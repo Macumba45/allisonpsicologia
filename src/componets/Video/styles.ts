@@ -52,7 +52,6 @@ export const VideoUrl = styled.iframe`
   border: 10px solid #F1CED6;
 
   @media screen and (max-width: 600px) {
-    width: 350px;
     height: 400px;
 
   }
@@ -100,3 +99,6 @@ margin-bottom: 5rem;
 
 
 `
+
+
+export const ImageIframe = styled.img
