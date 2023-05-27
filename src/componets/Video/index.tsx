@@ -110,7 +110,7 @@ const Video: FC = () => {
       </SpanBoldContainer>
 
       <VideoContainer>
-        <VideoUrl src={video} />
+        <VideoUrl width="560" height="315" src={video} />
       </VideoContainer>
     </MainContainer>
   );
