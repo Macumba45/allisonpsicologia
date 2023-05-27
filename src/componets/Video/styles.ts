@@ -48,7 +48,6 @@ export const VideoContainer = styled.div`
 export const VideoUrl = styled.iframe`
   width: 80%;
   height: 700px;
-  object-fit: cover;
   border: 10px solid #F1CED6;
 
   @media screen and (max-width: 600px) {

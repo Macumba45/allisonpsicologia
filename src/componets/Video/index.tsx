@@ -110,7 +110,7 @@ const Video: FC = () => {
       </SpanBoldContainer>
 
       <VideoContainer>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/aoe9M02poto?controls=0" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
+        <VideoUrl width="560" height="315" src="https://www.youtube.com/embed/aoe9M02poto?controls=0" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></VideoUrl>
       </VideoContainer>
     </MainContainer>
   );
