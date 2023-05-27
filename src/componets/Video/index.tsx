@@ -10,7 +10,7 @@ import {
   SpanBoldContainer,
 } from "./styles";
 
-const video = require('../../videos/myvideo1.mp4')
+const video = "https://www.youtube.com/embed/aoe9M02poto?autoplay=1&rel=0&showinfo=0&fs=1"
 
 const Video: FC = () => {
   const titleVariants = {
@@ -110,7 +110,7 @@ const Video: FC = () => {
       </SpanBoldContainer>
 
       <VideoContainer>
-        <VideoUrl src={video} preload='auto' poster="https://i.postimg.cc/nVdRc8Rc/allison.jpg" controls playsInline />
+        <VideoUrl src={video} />
       </VideoContainer>
     </MainContainer>
   );

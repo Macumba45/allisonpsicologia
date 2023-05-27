@@ -45,8 +45,9 @@ export const VideoContainer = styled.div`
   margin-bottom: 5rem;
 `;
 
-export const VideoUrl = styled.video`
+export const VideoUrl = styled.iframe`
   width: 80%;
+  height: 700px;
   object-fit: cover;
   border: 10px solid #F1CED6;
 
